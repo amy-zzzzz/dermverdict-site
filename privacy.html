@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DermVerdict Privacy Policy</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --ground: #FFF8F9; --ink: #2D1B21; --ink-2: #6B5560; --rose: #D4688E; --line: #EFD9E1; --card: #FFFFFF;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --ground: #161214; --ink: #F6F1F3; --ink-2: #C9B9C0; --rose: #EC92B1; --line: #3A2C32; --card: #262124; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--ground); color: var(--ink);
+    font: 16px/1.6 -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    padding: 40px 20px 80px;
+  }
+  main { max-width: 680px; margin: 0 auto; }
+  h1 { font-family: Georgia, "Times New Roman", serif; font-weight: 500; font-size: 36px; line-height: 1.15; margin: 0 0 6px; }
+  h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 500; font-size: 22px; margin: 36px 0 8px; }
+  p, li { max-width: 68ch; }
+  p { margin: 0 0 14px; }
+  ul { padding-left: 22px; margin: 0 0 14px; }
+  li { margin-bottom: 6px; }
+  li::marker { color: var(--rose); }
+  .meta { color: var(--ink-2); font-size: 14px; margin-bottom: 28px; }
+  .summary { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; margin: 0 0 28px; }
+  .summary p:last-child { margin-bottom: 0; }
+  table { border-collapse: collapse; width: 100%; font-size: 15px; margin: 6px 0 16px; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+  th { font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-2); }
+  a { color: var(--rose); }
+  code { font-family: ui-monospace, Menlo, monospace; font-size: 0.92em; }
+</style>
+</head>
+<body>
+<main>
+  <h1>DermVerdict Privacy Policy</h1>
+  <p class="meta">Effective 16 September 2026</p>
+
+  <div class="summary">
+    <p><strong>The short version.</strong> DermVerdict works without an account, and as a guest nothing about you leaves your phone. If you choose to sign in, we keep the email address or phone number you sign in with, an account id, and the products you mark as favourites, so that your favourites follow you to another phone. We use that for nothing else, we never sell or share it, there are no analytics or ads, and you can delete all of it from inside the app.</p>
+  </div>
+
+  <h2>What DermVerdict is</h2>
+  <p>DermVerdict is an iPhone app that indexes what dermatologists have said about skincare products in their public YouTube videos. Its product database is downloaded to your phone and searched there.</p>
+
+  <h2>Using the app as a guest</h2>
+  <p>Signing in is optional. As a guest, the app collects no personal information. Your favourites and recent searches are stored only on your phone. The app's network requests are limited to downloading its own product database, and to loading video thumbnails and product photos from the services named under "Other services" below.</p>
+
+  <h2>If you sign in</h2>
+  <p>You can create an account with a one-time code sent to your email address or phone number. There is no password. When you do, we hold the following, each linked to your account:</p>
+  <table>
+    <thead><tr><th>Information</th><th>Why</th><th>Where</th></tr></thead>
+    <tbody>
+      <tr><td>Email address and/or phone number</td><td>To send you a sign-in code and to identify your account</td><td>Supabase Auth</td></tr>
+      <tr><td>An account id assigned at sign-up</td><td>To keep your favourites under your account</td><td>Supabase</td></tr>
+      <tr><td>The products you mark as favourites, with the time you did so</td><td>So your favourites appear on any phone you sign in to</td><td>Supabase</td></tr>
+    </tbody>
+  </table>
+  <p>Favourites you saved as a guest are moved into your account when you first sign in on that phone. Your recent searches stay on your phone and are never uploaded.</p>
+  <p>Nothing else is collected. The app has no analytics, no advertising, and no tracking of any kind, and it does not read your contacts, location, or photos. The camera, if you allow it, is used only to scan barcodes on your phone; no images are stored or sent anywhere.</p>
+
+  <h2>How your information is used</h2>
+  <p>Only to sign you in and to keep your favourites in sync. We do not use it for marketing, we do not build profiles, and we do not sell, rent, or share it with anyone, except the service providers below who process it on our behalf.</p>
+
+  <h2>Where it is stored and who can reach it</h2>
+  <p>Account information and favourites are stored by <a href="https://supabase.com">Supabase</a> in a database hosted in the United States (AWS us-east-1). Access to your favourites is restricted by database rules to your own signed-in session; no other user of the app can read them. The email or text message carrying your sign-in code is delivered by a messaging provider on our behalf and is used only for that delivery.</p>
+
+  <h2>How long we keep it</h2>
+  <p>For as long as you have an account. When you delete your account, your email address, phone number, account id, and all of your favourites are deleted from our systems at the same time. Backups held by our hosting provider expire on their normal schedule.</p>
+
+  <h2>Deleting your account</h2>
+  <p>Open the account screen (the person icon on the home screen), choose <strong>Delete account</strong>, and confirm. This is immediate and cannot be undone. Favourites saved to the account are removed from the phone as well. Signing out, by contrast, keeps your account and your favourites for the next time you sign in.</p>
+
+  <h2>Other services the app talks to</h2>
+  <ul>
+    <li><strong>Supabase</strong> hosts the sign-in service, the favourites database, and the published product database the app downloads. Downloads of the product database are anonymous.</li>
+    <li><strong>YouTube</strong> serves the video thumbnails shown on product pages (<code>img.youtube.com</code>). Tapping a video opens it in YouTube or your browser, which are governed by their own policies.</li>
+    <li><strong>Open Beauty Facts</strong> serves product photos for scanned barcodes.</li>
+  </ul>
+  <p>Loading an image from any service reveals your IP address to that service, as with any web request. None of these requests include your account, your favourites, or anything you have typed.</p>
+
+  <h2>Children</h2>
+  <p>DermVerdict is not directed at children under 13 and does not knowingly collect information from them.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be posted here with a new effective date. A change that affects how your information is used will also be announced inside the app.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy or your information: <a href="mailto:privacy@dermverdict.com">privacy@dermverdict.com</a>.</p>
+</main>
+</body>
+</html>

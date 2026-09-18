@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DermVerdict</title>
+<meta name="description" content="DermVerdict is an iPhone app that shows what dermatologists have said about skincare products in their public videos.">
+<style>
+  :root {
+    color-scheme: light dark;
+    --ground: #FFF8F9; --ink: #2D1B21; --ink-2: #6B5560; --rose: #D4688E; --line: #EFD9E1; --card: #FFFFFF;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --ground: #161214; --ink: #F6F1F3; --ink-2: #C9B9C0; --rose: #EC92B1; --line: #3A2C32; --card: #262124; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--ground); color: var(--ink);
+    font: 17px/1.6 -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    padding: 72px 20px 64px;
+  }
+  main { max-width: 620px; margin: 0 auto; }
+  .brand { color: var(--rose); font-family: Georgia, "Times New Roman", serif; font-size: 20px; font-weight: 600; margin: 0 0 20px; }
+  h1 { font-family: Georgia, "Times New Roman", serif; font-weight: 600; font-size: 40px; line-height: 1.12; margin: 0 0 18px; text-wrap: balance; }
+  p { margin: 0 0 16px; color: var(--ink-2); max-width: 60ch; }
+  .soon { display: inline-block; margin: 8px 0 36px; padding: 6px 14px; border-radius: 999px; background: var(--card); border: 1px solid var(--line); color: var(--ink); font-size: 15px; font-weight: 500; }
+  section { border-top: 1px solid var(--line); padding-top: 24px; margin-top: 8px; }
+  h2 { font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--rose); margin: 0 0 10px; }
+  a { color: var(--rose); text-underline-offset: 2px; }
+  a:focus-visible { outline: 2px solid var(--rose); outline-offset: 2px; border-radius: 2px; }
+  footer { margin-top: 48px; font-size: 14px; color: var(--ink-2); display: flex; flex-wrap: wrap; gap: 8px 20px; }
+  @media (max-width: 480px) { h1 { font-size: 32px; } body { padding-top: 48px; } }
+</style>
+</head>
+<body>
+<main>
+  <p class="brand">DermVerdict</p>
+  <h1>What do dermatologists think about your skincare?</h1>
+  <p>DermVerdict is an iPhone app that shows what dermatologists have said about skincare products in their public YouTube videos. Search a product or scan its barcode, and see each dermatologist's take, with a link to the moment in the video where they said it.</p>
+  <span class="soon">Coming soon to the App Store</span>
+
+  <section>
+    <h2>Help and contact</h2>
+    <p>Questions, feedback, or trouble with the app? Email <a href="mailto:privacy@dermverdict.com">privacy@dermverdict.com</a> and we'll get back to you.</p>
+    <p>DermVerdict is a search tool, not medical advice. Talk to a dermatologist or your doctor about your own skin.</p>
+  </section>
+
+  <footer>
+    <a href="/privacy">Privacy policy</a>
+    <span>© 2026 DermVerdict</span>
+  </footer>
+</main>
+</body>
+</html>
